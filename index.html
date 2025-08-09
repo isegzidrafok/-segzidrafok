@@ -4,13 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>İsegzidrafok</title>
+    <script>
+        function "buton()" {
+        let isim=prompt('İsmin nedir?');
+            alert('Hoşgeldin, ' + isim + '!');
+    </script>
 <style>
     body {
         background-color: black;
     }
+    .buton {
+        background-color: azure;
+        color: black;
+        font-family: arial, sans-serif;
+        padding: 10px 20px;
+        border: 3px;
+        border-radius: 8px;
     </style>
 </head>
     <body>
-        <input type="text" placeholder="Yaz ne yazacaksan!">
+        <input type="text" placeholder=isim/>
+        <br/>
+        <button onclick="buton()" class="buton">Bana tıkla!</button>
     </body>
 </html>
