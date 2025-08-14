@@ -20,6 +20,13 @@
     </style>
 </head>
     <body>
-        <input type="number">
+        <input type="number" id="num1">
+        <input type="number" id="num2"> <br>
+        <p id="paragraf"></p>
+        <script>
+            let sayi1 = document.getElementById("num1")
+            let sayi2 = document.getElementById("num2")
+        document.getElementById("paragraf").innerHTML = sayi1 + sayi2
+        </script>
     </body>
 </html>
